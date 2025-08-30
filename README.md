@@ -3,9 +3,9 @@
 
 &emsp;&emsp;NICE 学术专题：大模型评估。
 
-| Date | Title | Presenter |
-| ---- | ---- | --- |
-| 2024.12.28 | [NICE41期: 大模型评估的新视角：理论指标创新与下游任务应用](./files/nice_41.md) | [魏来（上交博士生）](https://waltonfuture.github.ioLLM)，[周宇轩（清华博士生）](https://zhouyx17.github.io) |
+| ID | Date | Title | Presenter | Categorization | Link |
+| ---- | ---- | --- | --- | --- | --- |
+| NICE 41期 | 2024.12.28 | [大模型评估的新视角：理论指标创新与下游任务应用](./files/nice_41.md) | [魏来（上交博士生）](https://waltonfuture.github.ioLLM)，[周宇轩（清华博士生）](https://zhouyx17.github.io) | 大模型评估 | [Link](./files/nice_41.md) |
 
 ## 关注我们
 
