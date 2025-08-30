@@ -1,4 +1,4 @@
 
 
-* [NICE41期: 大模型评估的新视角：理论指标创新与下游任务应用](./files/nice_41.md)
+* [NICE 41期](./files/nice_41.md)
 

@@ -1,9 +1,9 @@
 <!-- _coverpage.md -->
 
-#  NICE Academic Topic: LLM Evaluation
+#  NICE GitHub Repo
 
-> 🌠 NICE 学术专题：大模型评估。 🗼
+> 🌠 NICE 学术专题 🗼
 
 
-[GitHub](https://github.com/nice-nlp/nice-llm-evaluation)
+[GitHub](https://github.com/nice-nlp/nice-repo)
 [Get Started](/README.md)
