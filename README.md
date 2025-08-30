@@ -1,4 +1,4 @@
-# NICE Academic Topic: LLM Evaluation
+# NICE GitHub Repo
 </br>
 
 &emsp;&emsp;NICE 学术专题：大模型评估。
