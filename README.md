@@ -5,7 +5,7 @@
 
 | ID | Date | Title | Presenter | Categorization | Link |
 | ---- | ---- | --- | --- | --- | --- |
-| NICE 41期 | 2024.12.28 | [大模型评估的新视角：理论指标创新与下游任务应用](nice-nlp.github.io/nice-llm-evaluation/#/./files/nice_41) | [魏来（上交博士生）](https://waltonfuture.github.ioLLM)，[周宇轩（清华博士生）](https://zhouyx17.github.io) | 大模型评估 | [Link](nice-nlp.github.io/nice-llm-evaluation/#/./files/nice_41) |
+| NICE 41期 | 2024.12.28 | [大模型评估的新视角：理论指标创新与下游任务应用](https://nice-nlp.github.io/nice-llm-evaluation/#/./files/nice_41) | [魏来（上交博士生）](https://waltonfuture.github.ioLLM)，[周宇轩（清华博士生）](https://zhouyx17.github.io) | 大模型评估 | [Link](https://nice-nlp.github.io/nice-llm-evaluation/#/./files/nice_41) |
 
 ## 关注我们
 
