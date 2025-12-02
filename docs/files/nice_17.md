@@ -1,4 +1,4 @@
-# NICE17期 | Transformer模型能否进行隐式的推理？一个关于Grokking和泛化的深入探索
+# NICE 17期 | Transformer模型能否进行隐式的推理？一个关于Grokking和泛化的深入探索
 
 ## 主题
 

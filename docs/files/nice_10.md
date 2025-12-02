@@ -1,4 +1,4 @@
-# NICE10期 | 全栈大模型微调框架LLaMA Factory：从预训练到RLHF的高效实现
+# NICE 10期 | 全栈大模型微调框架LLaMA Factory：从预训练到RLHF的高效实现
 
 ## 主题
 

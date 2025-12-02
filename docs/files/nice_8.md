@@ -1,4 +1,4 @@
-# NICE8期 | LLMLingua: 压缩prompt构造LLMs的语言
+# NICE 8期 | LLMLingua: 压缩prompt构造LLMs的语言
 
 ## 主题
 

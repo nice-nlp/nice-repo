@@ -1,4 +1,4 @@
-# NICE9期 | LLM推理加速新范式！推测解码（Speculative Decoding）最新综述
+# NICE 9期 | LLM推理加速新范式！推测解码（Speculative Decoding）最新综述
 
 ## 主题
 

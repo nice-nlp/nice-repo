@@ -4,7 +4,7 @@ python3 -m scripts.gen_files > cvt.log 2>&1
 import pandas as pd
 from typing import List
 
-from .templates import README_TEMPLATE, MARKDOWN_TEMPLATE
+from templates import README_TEMPLATE, MARKDOWN_TEMPLATE
 
 
 def flatten_excel_to_talks_by_episode(excel_path: str, sheet_name: str):
@@ -52,7 +52,7 @@ def write_content_to_file(content: str, write_path=str):
 
 def create_readme_content(talks_by_episode: List[dict]):
     # | NICE 41期 | 2024.12.28 | [大模型评估的新视角：理论指标创新与下游任务应用](./files/nice_41.md) | [魏来（上交博士生）](https://waltonfuture.github.ioLLM)，[周宇轩（清华博士生）](https://zhouyx17.github.io) | 大模型评估 | [Link](./files/nice_41.md) |
-    RECORD_TEMPLATE = "| NICE {episode_idx}期 | {episode_time} | [{talk_topic}](./files/nice_{episode_idx}.md) | {presenters} | {keywords} | [Link](./files/nice_{episode_idx}.md) |"
+    RECORD_TEMPLATE = "| NICE {episode_idx}期 | {episode_time} | [{talk_topic}](../files/nice_{episode_idx}.md) | {presenters} | {keywords} | [Link](./files/nice_{episode_idx}.md) |"
     def create_records_content():
         records_content = []
         for talk in talks_by_episode:
@@ -77,7 +77,7 @@ def create_readme_content(talks_by_episode: List[dict]):
 
 
 def create_sidebar_content(talks_by_episode):
-    SIDEBAR_RECORD_TEMPLATE = '* [NICE {episode_idx}期](./files/nice_{episode_idx}.md)'
+    SIDEBAR_RECORD_TEMPLATE = '* [NICE {episode_idx}期](../files/nice_{episode_idx}.md)'
     sidebar_content = []
     for talk in talks_by_episode:
         # raise RuntimeError( 'talk', talk )
@@ -91,15 +91,15 @@ def create_sidebar_content(talks_by_episode):
 
 if __name__ == '__main__':
     print('start convert')
-    talks_by_episode = flatten_excel_to_talks_by_episode(excel_path='./data/NICE直播信息.xlsx', sheet_name='2023&2024')
-    talks_by_episode = talks_by_episode[:20]
+    talks_by_episode = flatten_excel_to_talks_by_episode(excel_path='../data/NICE直播信息.xlsx', sheet_name='2025.8')
+    talks_by_episode = talks_by_episode[:]
 
     # write to files
     for talk in talks_by_episode:
         content = convert_talk_by_episode_to_markdown(talk)
         write_content_to_file(
             content=content,
-            write_path=f"./docs/files/nice_{talk['期号']}.md"
+            write_path=f"../docs/files/nice_{str(int(talk['期号'])) if isinstance(talk['期号'], (int, float)) else talk['期号']}.md"
         )
     # end for
 
@@ -107,7 +107,7 @@ if __name__ == '__main__':
     readme_content = create_readme_content(talks_by_episode)
     write_content_to_file(
         readme_content,
-        write_path=f"./docs/README.md"
+        write_path=f"../docs/README.md"
     )
 
     # write to sidebar
@@ -115,5 +115,5 @@ if __name__ == '__main__':
     # raise RuntimeError('sidebar_content', sidebar_content)
     write_content_to_file(
         sidebar_content,
-        write_path=f"./docs/_sidebar.md"
+        write_path=f"../docs/_sidebar.md"
     )

@@ -1,4 +1,4 @@
-# NICE2期 | LLM时代下的幻觉、对话、对齐、Cot、Agent和事实性等评估
+# NICE 2期 | LLM时代下的幻觉、对话、对齐、Cot、Agent和事实性等评估
 
 ## 主题
 

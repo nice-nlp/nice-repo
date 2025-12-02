@@ -1,4 +1,4 @@
-# NICE7期 | Transformer的无限之路：位置编码视角下的长度外推
+# NICE 7期 | Transformer的无限之路：位置编码视角下的长度外推
 
 ## 主题
 
